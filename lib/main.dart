@@ -12,7 +12,7 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Adote-me",
+      title: "Eventos",
       home: new Login(),
       theme: ThemeData(
         primaryColor: Colors.redAccent,
