@@ -58,10 +58,6 @@ class _LoginState extends State<Login> {
                           Navigator.of(context).push(MaterialPageRoute(
                               builder: (context) => HomeScreen()))
                         }
-                      else
-                        {
-                         
-                        }
                     },
                     shape: new RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(30.0)),
