@@ -15,7 +15,7 @@ class Main extends StatelessWidget {
       title: "Eventos",
       home: new Login(),
       theme: ThemeData(
-        primaryColor: Colors.redAccent,
+        primaryColor: Color.fromARGB(255, 82, 43, 145)55, 102, 52, 196),
       ),
       debugShowCheckedModeBanner: false,
     );
