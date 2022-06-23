@@ -60,12 +60,7 @@ class _LoginState extends State<Login> {
                         }
                       else
                         {
-                          showDialog(
-                            context: Text("teste"),
-                            builder: (BuildContext context) {
-                              return AlertDialog();
-                            },
-                          )
+                         
                         }
                     },
                     shape: new RoundedRectangleBorder(
