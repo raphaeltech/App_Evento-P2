@@ -14,9 +14,7 @@ class Main extends StatelessWidget {
     return MaterialApp(
       title: "Eventos",
       home: new Login(),
-      theme: ThemeData(
-        primaryColor: Color.fromARGB(255, 82, 43, 145)55, 102, 52, 196),
-      ),
+      theme: ThemeData(primaryColor: Color.fromARGB(255, 82, 43, 145)),
       debugShowCheckedModeBanner: false,
     );
   }
